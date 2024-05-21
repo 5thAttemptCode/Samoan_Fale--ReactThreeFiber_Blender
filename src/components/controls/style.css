@@ -1,0 +1,40 @@
+.controls-wrapper{
+    color: white;
+    display: flex;
+    gap: 10px;
+    width: 550px;
+
+    .controls-container{
+        display: grid;
+        gap: 10px;
+
+        button{
+          height: 100%;
+          padding: 0.77rem 1.5rem;
+          font-size: 1rem;
+          background: none;
+          color: white;
+          background: rgb(0, 0, 0, 0.5);
+          backdrop-filter: blur(2px);
+          border-radius: 5px;
+          border: 1px solid var(--activeColor);
+
+          &.button-toggled{
+            color: black;
+            background: var(--activeColor);
+            border: 1px solid rgb(0, 0, 0, 0.2);
+          }
+        }
+    }
+
+    p{
+        text-align: justify;
+        padding: 1rem 1.5rem;
+        background: var(--activeColor);
+        backdrop-filter: blur(5px);
+        height: 100%;
+        color: black;
+        border-radius: 5px;
+        border: 1px solid rgb(0, 0, 0, 0.2);
+    }
+}
