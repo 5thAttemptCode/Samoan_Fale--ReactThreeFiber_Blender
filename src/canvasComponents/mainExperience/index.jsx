@@ -7,7 +7,7 @@ export default function MainExperience() {
     
   return (
     <div className='canvas'>
-      <Canvas camera={{ position: [0, 2, 15], fov: 30 }}>
+      <Canvas camera={{ position: [0, 4, 15], fov: 30 }}>
         <directionalLight intensity={5} />
         <Floor />
       </Canvas>
