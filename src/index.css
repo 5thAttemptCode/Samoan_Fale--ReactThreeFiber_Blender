@@ -2,13 +2,14 @@
 
 :root{
   --serifFont: 'East Bouvent', sans-serif;
+  --activeColor: rgba(73, 127, 212, 0.3);
 }
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Neue Montreal;
+  font-family: Poppins;
 }
 
 .canvas{
@@ -18,4 +19,25 @@
   height: 100vh;
   width: 100%;
   z-index: -1
+}
+
+.container{
+  width: 50%;
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:focus{
+    border: none;
+    outline: none
+  }
 }
