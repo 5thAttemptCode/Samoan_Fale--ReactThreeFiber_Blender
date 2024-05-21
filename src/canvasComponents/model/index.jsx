@@ -28,26 +28,26 @@ export function Fale( props ) {
       </group>
 
       {/* Pile */}
-      <group  onPointerOver={() => setHoveredGroup('pile')}
+      <group  onPointerOver={() => setHoveredGroup('posts')}
         onPointerOut={() => setHoveredGroup(null)}>
-        <mesh geometry={nodes.Cylinder.geometry} material={getMaterial('pile')} position={[3.851, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder001.geometry} material={getMaterial('pile')} position={[-3.852, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder003.geometry} material={getMaterial('pile')} position={[3.6, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder004.geometry} material={getMaterial('pile')} position={[2.307, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder005.geometry} material={getMaterial('pile')} position={[1, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder006.geometry} material={getMaterial('pile')} position={[-0.315, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder007.geometry} material={getMaterial('pile')} position={[-1.616, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder008.geometry} material={getMaterial('pile')} position={[3.851, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder009.geometry} material={getMaterial('pile')} position={[-3.852, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder010.geometry} material={getMaterial('pile')} position={[3.6, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder011.geometry} material={getMaterial('pile')} position={[2.307, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder012.geometry} material={getMaterial('pile')} position={[1, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder013.geometry} material={getMaterial('pile')} position={[-0.315, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder014.geometry} material={getMaterial('pile')} position={[-1.616, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder002.geometry} material={getMaterial('pile')} position={[3.851, 2.619, 0.643]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder015.geometry} material={getMaterial('pile')} position={[3.851, 2.619, -0.69]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder016.geometry} material={getMaterial('pile')} position={[-3.83, 2.619, 0.643]} scale={[0.148, 1.166, 0.148]} />
-        <mesh geometry={nodes.Cylinder017.geometry} material={getMaterial('pile')} position={[-3.83, 2.619, -0.69]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder.geometry} material={getMaterial('posts')} position={[3.851, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder001.geometry} material={getMaterial('posts')} position={[-3.852, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder003.geometry} material={getMaterial('posts')} position={[3.6, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder004.geometry} material={getMaterial('posts')} position={[2.307, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder005.geometry} material={getMaterial('posts')} position={[1, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder006.geometry} material={getMaterial('posts')} position={[-0.315, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder007.geometry} material={getMaterial('posts')} position={[-1.616, 2.619, -1.961]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder008.geometry} material={getMaterial('posts')} position={[3.851, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder009.geometry} material={getMaterial('posts')} position={[-3.852, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder010.geometry} material={getMaterial('posts')} position={[3.6, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder011.geometry} material={getMaterial('posts')} position={[2.307, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder012.geometry} material={getMaterial('posts')} position={[1, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder013.geometry} material={getMaterial('posts')} position={[-0.315, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder014.geometry} material={getMaterial('posts')} position={[-1.616, 2.619, 1.951]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder002.geometry} material={getMaterial('posts')} position={[3.851, 2.619, 0.643]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder015.geometry} material={getMaterial('posts')} position={[3.851, 2.619, -0.69]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder016.geometry} material={getMaterial('posts')} position={[-3.83, 2.619, 0.643]} scale={[0.148, 1.166, 0.148]} />
+        <mesh geometry={nodes.Cylinder017.geometry} material={getMaterial('posts')} position={[-3.83, 2.619, -0.69]} scale={[0.148, 1.166, 0.148]} />
       </group>
 
       {/* Roof */}
