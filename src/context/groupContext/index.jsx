@@ -6,7 +6,7 @@ const ToggledGroupsContext = createContext()
 export const ToggledGroupsProvider = ({ children }) => {
   const [toggledGroups, setToggledGroups] = useState({
     floor: false,
-    pile: false,
+    posts: false,
     roof: false,
     rooftruss: false,
   })
